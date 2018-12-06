@@ -2,12 +2,12 @@
   <div id="Enterpriserankings">
   <div class="top_header">
     <p>数据治理标杆企业</p>
-    <p><span>{{firstName}}</span><span>{{firstScore}}分</span></p>
+    <p><span>{{firstName}} {{DomText}}</span><span>{{firstScore}}分</span></p>
   </div>
     <div class="Enterpriserankings_list">
         <ul>
             <li v-for='(item,index) in arr'>
-                <span>{{item.rank}}</span>
+                <span :style="{'color':item.rank<=3&&item.rank>0?'#FFCE52':'#c9c9c9'}">{{item.rank}}</span>
                 <span>{{item.comp_code_text}}</span>
                 <span><b>{{item.quality_score }}</b><b>分</b></span>
                 <span @click='thumbsUp(item,index)'>
@@ -85,7 +85,9 @@ export default {
           zqids:'',
           firstName:'',//标杆企业
           firstScore:'',//标杆企业分数
-          show: false//控制弹出层
+          show: false,//控制弹出层
+          brr:[],
+          DomText:''
       }
   },
   mounted() {
@@ -98,10 +100,21 @@ export default {
         dataTable:'datagovern_qualitylevel_h',
         limitLower: 0,
         limitUpper: 10,
+        checkDate:this.$store.state.jhNowDate,
         orders:'rank'
       }
     }).then((data)=>{
       console.log(data.data.data)
+      data.data.data?data.data.data.forEach((item,index)=>{
+          if(item.rank==1){
+            _this.brr.push(item);
+          }
+      }):[]
+      if(_this.brr.length>1){
+        _this.DomText='等'+_this.brr.length+'家'
+      }else{
+        _this.DomText='';
+      }
       _this.compData = data.data.data;
       _this.zqids = '';
       if(_this.compData&&_this.compData.length>0){

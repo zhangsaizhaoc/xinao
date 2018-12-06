@@ -65,7 +65,7 @@ export default {
               subtext: ''
           },
           tooltip : {
-              trigger: 'axis',
+              trigger: '',
               confine: true,
               backgroundColor:'rgba(255,255,255,1)',
               textStyle:{
@@ -111,13 +111,39 @@ export default {
                       _this.BarData[3]?_this.BarData[3].process_count:0
                       /*this.$store.state.lineBarData[4]?this.$store.state.lineBarData[4].process_count:1*/
                   ],
+                  label:{
+                    normal:{
+                        // backgroundColor:'#70B6FE',
+                        // padding:8,
+                        // borderRadius:[50,80,0,80],
+                        // rotate:'-45',
+                        // distance:10,
+                        // offset:[-10,0],
+                    }
+                  },
                   itemStyle: {
                 //通常情况下：
+                
                         normal:{
-                            color:'#70B6FE'
-                        }
+                            color:'#70B6FE',
+                            label : {
+                                 show: true,
+                                 position: 'top',
+                                 color:'#70B6FE',
+                                //  rotate:45,
+                                 fontSize:16,
+                                 fontWeight:100,
+                                 formatter:function(params){
+                                    if(params.value==0){
+                                        return '';
+                                    }
+                                    return params.value;
+                                }
+                            }
+                        },
+                       
                     },
-                  markPoint : {
+                  markPoint : {   
                     //   data : [
                     //       {type : 'max', name: '最大值'},
                     //       {type : 'min', name: '最小值'}
@@ -143,7 +169,19 @@ export default {
                   itemStyle: {
                 //通常情况下：
                         normal:{
-                            color:'#7978F5'
+                            color:'#7978F5',
+                            label : {
+                                 show: true,
+                                 position: 'top',
+                                 fontSize:16,
+                                 fontWeight:100,
+                                 formatter:function(params){
+                                    if(params.value==0){
+                                        return '';
+                                    }
+                                    return params.value;
+                                }
+                            }
                         }
                     },
                   markPoint : {
