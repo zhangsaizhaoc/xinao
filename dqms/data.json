@@ -1,0 +1,173 @@
+{
+	"data": [{
+		"zqid": "TC000002",
+		"month_value": null,
+		"month_plan": null,
+		"y_chain": null,
+		"unit": "元",
+		"m_chain_warn": null,
+		"day_chain": null,
+		"kpi_longname": "销售收入（控股）",
+		"quarter_plan": null,
+		"y_chain_warn": null,
+		"backup3": null,
+		"kpi_id": "I_01000242",
+		"backup1": "",
+		"m_chain": null,
+		"kpi_name": "销售收入",
+		"zqname": "新奥能源",
+		"q_chain_warn": null,
+		"zqfid": "TC000001",
+		"q_ratio_warn": null,
+		"m_ratio_warn": null,
+		"q_finish_ratio": null,
+		"q_chain": null,
+		"year_plan": 104800000000,
+		"update_time": null,
+		"m_finish_ratio": null,
+		"count_date": "201802",
+		"day_chain_warn": null,
+		"day_value": null,
+		"quarter_value": null,
+		"y_finish_ratio": 0.13,
+		"year_value": 14045000000,
+		"y_ratio_warn": "1",
+		"backup2": null
+	}, {
+		"zqfid": "TC000001",
+		"y_ratio_warn": "1",
+		"backup1": "",
+		"m_chain": null,
+		"backup3": null,
+		"y_chain_warn": null,
+		"m_finish_ratio": null,
+		"day_chain_warn": null,
+		"month_value": null,
+		"q_chain": null,
+		"backup2": null,
+		"quarter_plan": null,
+		"unit": "元",
+		"q_finish_ratio": null,
+		"q_ratio_warn": null,
+		"zqname": "新奥能源",
+		"day_value": null,
+		"zqid": "TC000002",
+		"month_plan": null,
+		"kpi_name": "净利润",
+		"quarter_value": null,
+		"day_chain": null,
+		"kpi_id": "I_01000249",
+		"year_plan": 7500000000,
+		"m_ratio_warn": null,
+		"kpi_longname": "净利润（控股）",
+		"year_value": 265000000,
+		"m_chain_warn": null,
+		"q_chain_warn": null,
+		"update_time": null,
+		"y_finish_ratio": 0.04,
+		"count_date": "201802",
+		"y_chain": null
+	}],
+	"data_seting":{
+        "theme":[{
+            "type_name": "经营",
+            "title_two": [{
+                "title_three": "市场",
+                "kpis": [{
+                    "kpiName": "多能源商机数量1"
+                }, {
+                    "kpiName": "多能源商机数量2"
+                }]
+            }, {
+                "title_three": "运维"
+            }]
+            }, {
+            "type_name": "多能源",
+            "title_two": [{
+                "title_three": "市场",
+                "kpis": [{
+                    "kpiName": "多能源商机数量3"
+                }, {
+                    "kpiName": "多能源商机数量4"
+                }]
+            }, {
+                "title_three": "运维"
+            }]
+        }],
+        "scene": [{
+			"type_name": "业务场景",
+			"title_two": [{
+				"title_three": "多能源业务",
+				"kpis": [{
+					"kpiName": "多能源市场"
+				}, {
+					"kpiName": "多能源建设"
+				}, {
+					"kpiName": "多能源运维"
+				}]
+			}, {
+				"title_three": "城市燃气业务",
+				"kpis": [{
+					"kpiName": "市场开发"
+				}, {
+					"kpiName": "盈利能力"
+				}, {
+					"kpiName": "运营效率"
+				}]
+			}]
+        },
+        {
+			"type_name": "项目场景",
+			"title_two": [{
+				"title_three": "多能源业务1",
+				"kpis": [{
+					"kpiName": "多能源市场"
+				}, {
+					"kpiName": "多能源建设"
+				}, {
+					"kpiName": "多能源运维"
+				}]
+			}, {
+				"title_three": "城市燃气业务1",
+				"kpis": [{
+					"kpiName": "市场开发"
+				}, {
+					"kpiName": "盈利能力"
+				}, {
+					"kpiName": "运营效率"
+				}]
+			}]
+		}]
+	},
+	"data_router":[{"name":"主题","link":"/home/theme"},{"name":"场景","link":"/home/scene"}],
+	"dataS":[{"sceneName":"业务场景","sceneTwo":[{"sceneTwoName":"多能源市场"}]},{"sceneName":"项目场景","sceneTwo":[{"sceneTwoName":"泛能项目","itemPro":[{"proPerson":"王新强","proName":"石家庄君乐宝","type":"园区","isWain":1},{"proPerson":"王新强","proName":"余杭项目","type":"工业","isWain":2}]},{"sceneTwoName":"投资项目","itemPro":[{"proPerson":"周新华","proName":"烟台工业泛能站项目","money":20000000,"role":"区域总经理审核","type":"工业","status":"投前"},{"proPerson":"王新强","proName":"威海工业泛能站项目","money":20000000,"role":"变更-区域总经理审核","type":"工业","status":"投中"}]}]}],
+	"multiEM_data":[{"kpi_longname":"园区客户商机数量","q_finish_ratio":null,"m_finish_ratio":null,"m_chain_warn":"","syid":"","update_time":"2018-04-17 03:04:28","count_date":"20180416","m_chain":null,"fid":"","zqfid":"TC000002","quarter_plan":null,"unit":"个","kpi_name":"园区商机数","q_chain":null,"q_chain_warn":"","year_value":39,"month_plan":null,"quarter_value":null,"zqid":"TC000040","year_plan":null,"month_value":null,"y_ratio_warn":null,"syname":"","day_value":null,"q_ratio_warn":"","m_ratio_warn":"","kpi_id":"I_01000014","y_chain_warn":"","y_finish_ratio":null,"zqname":"山东泛能域","y_chain":null},{"q_chain_warn":"","y_chain_warn":"","kpi_id":"I_01000162","kpi_longname":"工业客户商机数量（多能源）","year_value":28,"quarter_plan":null,"q_ratio_warn":"","m_finish_ratio":null,"kpi_name":"工业商机数","year_plan":null,"y_ratio_warn":null,"quarter_value":null,"q_chain":null,"q_finish_ratio":null,"day_value":null,"zqfid":"TC000002","update_time":"2018-04-17 03:04:28","syid":"","y_chain":null,"m_chain":null,"month_value":null,"y_finish_ratio":null,"m_ratio_warn":"","month_plan":null,"count_date":"20180416","fid":"","unit":"个","zqid":"TC000040","zqname":"山东泛能域","m_chain_warn":"","syname":""},{"zqname":"山东泛能域","m_chain_warn":"","kpi_longname":"公建客户商机数量（多能源）","fid":"","month_plan":null,"q_finish_ratio":null,"kpi_name":"公建商机数","count_date":"20180416","m_ratio_warn":"","year_plan":null,"q_ratio_warn":"","day_value":null,"y_ratio_warn":null,"y_finish_ratio":null,"quarter_plan":null,"unit":"个","quarter_value":null,"month_value":null,"y_chain":null,"syname":"","zqfid":"TC000002","q_chain":null,"q_chain_warn":"","year_value":33,"kpi_id":"I_01000164","m_finish_ratio":null,"update_time":"2018-04-17 03:04:28","zqid":"TC000040","m_chain":null,"syid":"","y_chain_warn":""},{"kpi_longname":null,"m_chain_warn":"","fid":"","day_value":null,"year_value":40,"q_ratio_warn":"","m_finish_ratio":null,"kpi_name":null,"m_ratio_warn":"","y_finish_ratio":null,"month_value":null,"syname":"","m_chain":null,"syid":"","q_finish_ratio":null,"year_plan":null,"zqfid":"TC000002","y_chain_warn":"","count_date":"20180416","zqid":"TC000040","y_chain":null,"q_chain":null,"q_chain_warn":"","y_ratio_warn":null,"unit":"个","update_time":"2018-04-17 03:04:28","quarter_value":null,"kpi_id":"I_01000168","zqname":"山东泛能域","month_plan":null,"quarter_plan":null},{"y_chain_warn":"","syid":"","m_chain":null,"zqfid":"TC000002","y_chain":null,"zqid":"TC000040","kpi_id":"I_01000234","year_value":140,"kpi_longname":"多能源商机数量","fid":"","quarter_plan":null,"q_finish_ratio":null,"syname":"","zqname":"山东泛能域","m_chain_warn":"","month_value":null,"q_chain":null,"quarter_value":null,"day_value":null,"q_ratio_warn":"","unit":"个","count_date":"20180416","q_chain_warn":"","kpi_name":"多能源商机数","year_plan":null,"update_time":"2018-04-17 03:04:28","m_ratio_warn":"","y_ratio_warn":null,"y_finish_ratio":null,"month_plan":null,"m_finish_ratio":null}],
+    "routers":[
+		{
+		  "path": "/",
+		  "redirect": "/home/theme"
+		},
+		{
+		  "path": "/home",
+		  "name": "home",
+		  "component": "home",
+		  "children": [
+			{
+			  "path": "/home/theme",
+			  "name": "theme",
+			  "component": "theme"
+			},
+			{
+			  "path": "/home/scene",
+			  "name": "scene",
+			  "component": "scene"
+			}
+		  ]
+		},
+		{
+		  "path": "/home2/:title/:type",
+		  "name": "home2",
+		  "component": "home2"
+		}
+	  ]
+}

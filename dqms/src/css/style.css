@@ -1,0 +1,43 @@
+@import 'vant/lib/dialog/index.css';
+
+*{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+html,body,#app{
+    width: 100%;
+    height: 100%;
+    background: #f5f7fa;
+    overflow: hidden;
+}
+#app{
+    display: flex;
+    flex-direction: column;
+    overflow: hidden !important;
+}
+.scroll {
+    flex: 1;
+    overflow-y: scroll;
+    
+}
+.vant-dialog{
+    width: 70% !important;
+    padding:20px 0;
+    box-sizing: border-box;
+}
+.vant-dialog .van-dialog__footer{
+    height:100px;
+}
+.vant-dialog div.van-dialog__header--isolated{
+    height: 100px;
+    font-size: 50px;
+    font-weight: 800;
+}
+.vant-dialog button.van-button{
+    height: 100px;
+    font-size: 50px;
+}

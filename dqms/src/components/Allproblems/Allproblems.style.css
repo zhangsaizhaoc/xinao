@@ -1,0 +1,262 @@
+#Allproblems{
+    width: 100%;
+    height: 100%;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+.Allproblems_screeningConditions {
+    width: 100%;
+    background: #fff;
+    box-sizing: border-box;
+    padding: 0 32px;
+    overflow: hidden;
+}
+
+.Allproblems_screeningConditions h5{
+    width: 100%;
+    height: 64px;
+    line-height: 64px;
+    color:#969696;
+    font-size:24px;
+    padding: 0 34px;
+    box-sizing: border-box;
+}
+.Allproblems_screeningConditions h6.inpt{
+    width: 100%;
+    height: 97px;
+    border-bottom:solid 2px #e5e6e7;
+    line-height: 97px;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    
+}
+.Allproblems_screeningConditions h6.inpt input{
+    flex: 1;
+    height: 60px;
+    border:solid 1px #F2F2F2;
+    background: #F2F2F2 ;
+    border:0;
+    line-height: 60px;
+    border-radius: 4px;
+    box-sizing: border-box;
+    padding:0 70px;
+}
+.Allproblems_screeningConditions h6.inpt>b{
+    display: inline-block;
+    margin-left: 12px;
+    width:40px;
+    height:40px;
+    vertical-align: middle;
+    background:url("../../image/icon-search@2x.png") center center no-repeat;
+    background-size: 100%;
+    position: absolute;
+    top:0;
+    bottom: 0;
+    margin: auto 0;
+    left:14px;
+}
+.Allproblems_screeningConditions h6.inpt span{
+    padding: 0;
+    background: #fff;
+}
+.Allproblems_screeningConditions h6.inpt span>b{
+    border-radius: 4px;
+    border:solid 2px #e0e0e0;
+    padding: 14px 18px;
+    color:#585858;
+    box-sizing: border-box;
+    margin-left: 10px;
+}
+.Allproblems_screeningConditions h6.inpt span b>b{
+    transform: rotate(90deg);
+    display: inline-block;
+    margin-left: 12px;
+    width:18px;
+    height:18px;
+    background:url("../../assets/images/picker-cctrl-right@2x.png") center center no-repeat;
+    background-size: 100%;
+}
+.ScreeningConditions {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px;
+    border-bottom: solid 2px #f2f2f2;
+    box-sizing: border-box;
+}
+.ScreeningConditions span{
+    padding:14px 34px ;
+    color:#70b6fe;
+    background:#f3f9ff ;
+    font-size:22px ;
+    margin: 10px;
+    box-sizing: border-box;
+}
+.Allproblems_screeningResults{
+    width: 100%;
+    margin-top:20px ;
+    border-top:solid 1px #e5e6e7;
+    background: #fff;
+}
+.ScreeningResults{
+    width: 100%;
+    box-sizing: border-box;
+    padding: 0 30px;
+}
+.ScreeningResults h4{
+    width: 100%;
+    height: 86px;
+    border-bottom: solid 2px #f2f2f2;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-sizing: border-box;
+    padding: 0 32px;
+}
+.ScreeningResults h4 span{
+    font-size: 26px;
+}
+.ScreeningResults h4 span b{
+   transform: rotate(90deg);
+   display: inline-block;
+   font-size: 18px;
+   margin-left: 10px;
+}
+.mask,.mask2{
+    background: rgba(88,88,88,0.5);
+    width: 100%;
+    height: 100%;
+    display: none;
+    transition: all 3s;
+    -moz-transition: all 3s; /* Firefox 4 */
+    -webkit-transition: all 3s; /* Safari 和 Chrome */
+    -o-transition: all 3s; /* Opera */
+}
+.mask{
+    position: absolute;
+    right:-100%;
+    top:0;
+    
+}
+.mask2{
+    position: absolute;
+    bottom:-100%;
+    left:0;
+}
+.right_an{
+    width: 100%;
+    height: 100%;
+    background: #fff;
+    display: flex;
+    flex-direction: column;
+    transition: all 3s;
+    -moz-transition: all 3s; /* Firefox 4 */
+    -webkit-transition: all 3s; /* Safari 和 Chrome */
+    -o-transition: all 3s; /* Opera */
+}
+.main{
+    flex: 1;
+    overflow-y: scroll;
+    box-sizing: border-box;
+    padding: 0 20px;
+}
+.main_mod{
+    width: 100%;
+}
+.main_mod h6{
+    width: 100%;
+    height: 60px;
+    font-size: 24px;
+    color:#969696;
+    font-weight: 100;
+    line-height: 60px;
+}
+.main_mod>p{
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.main_mod>p label{
+    width: 60px;
+    height: 60px;
+    line-height: 60px;
+    text-align: center;
+    color:#585858;
+    font-size: 28px;
+}
+.main_mod>p input{
+    flex: 1;
+    height: 60px;
+    background: #F2F2F2;
+    border-radius: 4px;
+    border:0;
+    margin: 0 14px;
+}
+.main_mod>p input::-webkit-input-placeholder {
+    /* placeholder颜色  */
+    color: #C9C9C9; 
+    /* placeholder字体大小  */
+    font-size: 24px;
+    /* placeholder位置  */
+    text-align: center;
+}
+.main_mod>p span{
+    box-sizing: border-box;
+    padding: 0px 30px;
+    height: 70px;
+    line-height: 70px;
+    border-radius: 4px;
+    color:#969696;
+    background:#f2f2f2;
+    margin: 20px 8px;
+}
+.main_mod>p span.clicka{
+    color:#70b6fe;
+    border:solid 1px #6EB6FF;
+    background: #f3f9ff;
+    box-sizing: border-box;
+    padding: 0px 29px;
+}
+.right_an .footer{
+    width: 100%;
+    height: 88px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.right_an .footer p{
+    flex: 1;
+    height: 88px;
+    line-height: 88px;
+    text-align: center;
+    font-size: 28px;
+}
+.right_an .footer p:first-child{
+    background: #E1EFFD;
+    color:#3498FE;
+}
+.right_an .footer p:last-child{
+    background: #3498FE;
+    color:#fff;
+    
+}
+
+.bottom_an{
+    width: 100%;
+    height: 520px;
+    background: #fff;
+    position: absolute;
+    border-top: solid 2px #C9C9C9;
+    bottom:-520px;
+    left:0;
+    transition: all 2s;
+    -moz-transition: all 2s; /* Firefox 4 */
+    -webkit-transition: all 2s; /* Safari 和 Chrome */
+    -o-transition: all 2s; /* Opera */
+    z-index: 100;
+}

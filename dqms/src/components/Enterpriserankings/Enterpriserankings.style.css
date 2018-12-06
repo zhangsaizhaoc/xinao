@@ -1,0 +1,191 @@
+#Enterpriserankings{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.top_header{
+    width: 100%;
+    height: 184px;
+    background: url(../../image/bg-rank@2x.png) no-repeat;
+    background-position: center center;
+    background-size: 100% 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.top_header p:first-child{
+    line-height: 60px ;
+    color:#b8dbfe;
+    text-align:center;
+}
+.top_header p:last-child{
+    color:#fff;
+    text-align:center;
+    font-size: 38px;
+    line-height: 100px;
+    background: url(../../image/icon-pri@2x.png) no-repeat;
+    background-size: 40px 56px;
+    background-position: center left;
+    box-sizing: border-box;
+    padding-left: 50px;
+}
+.top_header p span:last-child{
+    font-size: 24px;
+    margin-left: 32px;
+}
+.Enterpriserankings_list {
+    width: 100%;
+    background: #fff;
+    margin-bottom: 22px;
+    flex: 1;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+.Enterpriserankings_list h3{
+    width: 100%;
+    height: 80px;
+    text-align: center;
+     position: sticky;
+    position: -webkit-sticky;
+    top: 0;
+    z-index: 999;
+    color:#ababab;
+    line-height: 80px;
+    font-size: 22px;
+}
+.Enterpriserankings_list ul{
+    width: 100%;
+    flex: 1;
+    overflow-y: scroll;
+
+}
+.Enterpriserankings_list ul li{
+    width: 100%;
+    height: 90px;
+    line-height: 90px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-bottom:solid 2px #f2f2f2; 
+}
+.Enterpriserankings_list ul li:first-child{
+    background: #EFF7FF ;
+}
+.Enterpriserankings_list ul li:nth-child(2) span:first-child,
+.Enterpriserankings_list ul li:nth-child(3) span:first-child,
+.Enterpriserankings_list ul li:nth-child(4) span:first-child{
+    color:#FFCE52;
+}
+.Enterpriserankings_list ul li span{
+    flex:1;
+    text-align: center;
+    font-size: 26px;
+}
+.Enterpriserankings_list ul li span:first-child{
+    color:#c9c9c9;
+    font-size: 26px;
+}
+.Enterpriserankings_list ul li span:nth-child(2){
+    color:#585858;
+    font-size: 26px;
+    text-align: left;
+}
+.Enterpriserankings_list ul li span:nth-child(3) b:first-child{
+    color:#3498fe;
+    font-weight: 100;
+    font-size: 26px;
+}
+.Enterpriserankings_list ul li span:nth-child(3) b:last-child{
+    color:#9d9d9d;
+    font-weight: 100;
+    font-size: 26px;
+}
+.Enterpriserankings_list ul li span:last-child{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 6px;
+    box-sizing: border-box;
+}
+.Enterpriserankings_list ul li span:last-child img{
+    width: 30px;
+    height: 30px;
+    line-height: 26px;
+    margin-bottom: 8px;
+}
+.Enterpriserankings_list ul li span:last-child b{
+    font-size:24px ;
+    font-weight: 100;
+    color:#969696;
+    line-height: 26px;
+}
+.Enterpriserankings_pf{
+    width: 100%;
+    background: #fff;
+    box-sizing: border-box;
+    height: 100px;
+}
+.Enterpriserankings_pf h5{
+    width: 100%;
+    height: 88px;
+    font-size: 28px;
+    color:#585858;
+    line-height: 88px;
+    padding: 0 34px;
+    box-sizing: border-box;
+    border-bottom: solid 1px #f2f2f2;
+}
+.Enterpriserankings_pf h5 img{
+    width: 28px;
+    height: 30px;
+    vertical-align: middle;
+}
+.van-popup{
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+}
+.van-popup h4{
+    width: 100%;
+    line-height: 80px;
+    border-bottom: solid 1px #969696;
+    padding: 0 10px; 
+    box-sizing: border-box;
+}
+.van-popup ol{
+    width: 100%;
+}
+.van-popup ol li{
+    width: 100%;
+    line-height: 50px;
+}
+.van-popup ol li h6{
+    width: 100%;
+    line-height: 70px;
+    border-bottom: solid 1px #969696;
+    padding: 0 10px; 
+    box-sizing: border-box;
+    font-size: 30px;
+}
+.van-popup ol li p{
+    width: 100%;
+    padding:0 20px;
+    line-height: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.van-popup ol li p span:first-child{
+    width: 150px;
+    text-align: left;
+}
+.van-popup ol li p span:last-child{
+    flex: 1;
+    text-align: left;
+    padding-left: 10px;
+    box-sizing: border-box;
+}

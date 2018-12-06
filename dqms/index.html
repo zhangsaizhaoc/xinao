@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+    <meta name="format-detection" content="telephone=no" />
+    <title>icom-kernel</title>
+    <script>
+      try{
+        icome.hidenNavgationBar();
+        // console.log("隐藏icome头部");
+      }catch (e) {
+        console.log("隐藏icome头部失败");
+      }
+    </script>
+    <style>
+
+      html,body{
+        height: 100%;
+        font-family: 'Microsoft YaHei' !important;
+        margin: 0;
+        padding: 0;
+      }
+      #app{
+        height: 100%;
+        background-color: #f2f2f2;
+      }
+      .el-notification.right{
+        right:16px;
+      }
+      ul,li{
+        list-style: none;
+      }
+      *{
+        -webkit-touch-callout:none;
+        -webkit-user-select:none;
+        -khtml-user-select:none;
+        -moz-user-select:none;
+        -ms-user-select:none;
+        user-select:none;
+        -o-user-select:none;
+      }
+      #loadMask{
+        display: none;
+        position: fixed;
+        width: 100%;
+        height: 100%;
+        top: 0px;
+        bottom: 0px;
+        z-index: 1000000000000;
+        color:#fff;
+        background: rgba(0,0,0,0.5);
+        display: none;
+        align-items: center;
+        justify-content: center;
+      }
+      @-webkit-keyframes loadCss3{
+        50%{ transform:scale(0.4); opacity:.4;}
+        100%{ transform:scale(1); opacity:1;}
+      }
+      .loadCss3 { position:relative;}
+      .loadCss3 i{ display:block; width:15px;height:15px;border-radius:50%; background-color:#fff; position:absolute;}
+      .loadCss3 i:nth-child(1){top:25px;left:0;-webkit-animation:loadCss3 1s ease 0s infinite;}
+      .loadCss3 i:nth-child(2){top:17px;left:17px;-webkit-animation:loadCss3 1s ease -0.12s infinite;}
+      .loadCss3 i:nth-child(3){top:0px;left:25px;-webkit-animation:loadCss3 1s ease -0.24s infinite;}
+      .loadCss3 i:nth-child(4){top:-17px;left:17px;-webkit-animation:loadCss3 1s ease -0.36s infinite;}
+      .loadCss3 i:nth-child(5){top:-25px;left:0;-webkit-animation:loadCss3 1s ease -0.48s infinite;}
+      .loadCss3 i:nth-child(6){top:-17px;left:-17px;-webkit-animation:loadCss3 1s ease -0.6s infinite;}
+      .loadCss3 i:nth-child(7){top:0px;left:-25px;-webkit-animation:loadCss3 1s ease -0.72s infinite;}
+      .loadCss3 i:nth-child(8){top:17px;left:-17px;-webkit-animation:loadCss3 1s ease -0.84s infinite;}
+    </style>
+    <!--不打包指定js文件 - 单独引入js文件-->
+    <script src="static/js/var.js"></script>
+    <script src="static/js/lib/jquery.min.js"></script>
+    <script src="static/js/lib/vue-router.min.js"></script>
+    <!--<script src="static/js/lib/vue.min.js"></script>-->
+    <script src="static/js/lib/vuex.min.js"></script>
+    <script src="static/js/lib/axios.min.js"></script>
+    <script src="static/js/lib/echarts.min.js"></script>
+  </head>
+  <body>
+    <div id="loadMask" ref="loadMask">
+      <div class="loadCss3">
+        <i></i>
+        <i></i>
+        <i></i>
+        <i></i>
+        <i></i>
+        <i></i>
+        <i></i>
+        <i></i>
+      </div>
+    </div>
+    <div id="app"></div>
+    <!-- built files will be auto injected -->
+  </body>
+  <!-- <script src="static/js/fastclick.js"></script> -->
+  <!--手动配置rem适配：在写css时，100px=1rem-->
+  <script>
+    setTimeout(function () {
+      try {
+        $("#loadMask").fadeOut();
+      }catch (e) {}
+    },10000)
+  </script>
+
+</html>
